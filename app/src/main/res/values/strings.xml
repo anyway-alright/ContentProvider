@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PrivateDairy</string>
+    <string name="action_insert_dummy_data">insertDummyData</string>
+    <string name="action_delete_all_entries">deleteAll</string>
+    <string name="action_save">save</string>
+    <string name="action_delete">delete</string>
+</resources>
