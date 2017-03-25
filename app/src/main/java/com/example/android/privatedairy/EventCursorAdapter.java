@@ -28,14 +28,12 @@ public class EventCursorAdapter extends CursorAdapter {
         TextView time= (TextView) view.findViewById(R.id.time_show);
 
         int eventColumn = cursor.getColumnIndex(EventContract.EventEntry.COLUMN_EVENT);
-        int timeColoumn= cursor.getColumnIndex(EventContract.EventEntry.COLUMN_TIME);
+        int timeColoumn= cursor.getColumnIndex(EventContract.EventEntry.COLUMN_DATE);
         String eventDesc=cursor.getString(eventColumn);
         String timeDesc=cursor.getString(timeColoumn);
 
         event.setText(eventDesc);
         time.setText(timeDesc);
-
-
 
     }
 }

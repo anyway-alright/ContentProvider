@@ -18,6 +18,8 @@ public class EventContract implements BaseColumns {
         public final static String _ID = BaseColumns._ID;
         public final static String COLUMN_EVENT= "event";
         public final static String COLUMN_TIME= "time";
+        public final static String COLUMN_DATE= "date";
+        public final static String COLUMN_NOTE="note";
     }
 
 

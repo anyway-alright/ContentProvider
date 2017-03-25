@@ -18,7 +18,8 @@ public class EventDbHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String SQL_CREATE_EVENTS_TABLE =  "CREATE TABLE " + EventContract.EventEntry.TABLE_NAME + " ("
                 + EventContract.EventEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + EventContract.EventEntry.COLUMN_EVENT + " TEXT NOT NULL, "
+                + EventContract.EventEntry.COLUMN_EVENT + " TEXT NOT NULL, "+EventContract.EventEntry.COLUMN_DATE +
+                " TEXT NOT NULL, "+ EventContract.EventEntry.COLUMN_NOTE+" TEXT NOT NULL, "
                 + EventContract.EventEntry.COLUMN_TIME + " TEXT NOT NULL );";
 
         db.execSQL(SQL_CREATE_EVENTS_TABLE);

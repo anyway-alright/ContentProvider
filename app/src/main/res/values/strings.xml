@@ -4,4 +4,27 @@
     <string name="action_delete_all_entries">deleteAll</string>
     <string name="action_save">save</string>
     <string name="action_delete">delete</string>
+    <string name="editor_update_pet_failed">Failed</string>
+    <string name="editor_update_event_successful">success</string>
+    <string name="editor_update_event_failed">failed</string>
+    <string name="delete_dialog_msg">Do you want to delete the event?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="event_description">event description</string>
+    <string name="time">time</string>
+    <string name="event_notes">notes</string>
+    <string name="labelEvent">Title</string>
+    <string name="labelNote">Note</string>
+    <string name="labelTime">Time</string>
+    <string name="labelDate">Date</string>
+
+
+
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="mesg">You are logged in</string>
+    <string name="logout">Logout</string>
+    <string name="log_out">logout</string>
+    <string name="date">date</string>
+    <string name="t">Private Diary</string>
 </resources>
